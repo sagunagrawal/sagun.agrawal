@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sagun Agrawal - Resume</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    color: #1f1f1f;
+}
+
+/* Layout */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    background: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+    background: #2c5cc5;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.profile-pic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+
+.sidebar h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+.sidebar p {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.sidebar h3 {
+    margin-top: 25px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+}
+
+.sidebar li {
+    margin: 8px 0;
+}
+
+/* RIGHT CONTENT */
+.main {
+    padding: 30px 35px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    color: #2c5cc5;
+    margin-bottom: 10px;
+    border-left: 4px solid #2c5cc5;
+    padding-left: 10px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item strong {
+    display: block;
+    font-size: 14px;
+}
+
+.item span {
+    font-size: 12px;
+    color: #777;
+}
+
+.item p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Highlight metrics */
+.highlight {
+    font-weight: bold;
+    color: #2c5cc5;
+}
+
+/* Responsive */
+@media(max-width: 768px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        text-align: center;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT -->
+    <div class="sidebar">
+        <div class="profile-pic">
+            <img src="Sagun.jpeg" alt="Profile Picture">
+        </div>
+
+        <h1>Sagun Agrawal</h1>
+        <p>BBA (DBE)<br>IIM Bangalore</p>
+
+        <h3>Contact</h3>
+        <ul>
+            <li>📧 sagun.agrawal25@iimb.ac.in</li>
+            <li>📍 Odisha, India</li>
+            <li>🔗 <a href="https://www.linkedin.com/in/sagun-agrawal-897584341/" target="_blank">LinkedIn</a></li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Entrepreneurship</li>
+            <li>Leadership</li>
+            <li>Communication</li>
+            <li>Critical Thinking</li>
+            <li>HTML/CSS</li>
+        </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="main">
+
+        <div class="section">
+            <h2>About</h2>
+            <p>
+                BBA student at IIM Bangalore focused on digital business and entrepreneurship.
+                Strong interest in solving real-world problems through structured thinking,
+                execution, and collaboration.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+
+            <div class="item">
+                <strong>IIM Bangalore</strong>
+                <span>2025 – 2028</span>
+                <p>BBA in Digital Business & Entrepreneurship</p>
+            </div>
+
+            <div class="item">
+                <strong>Gangadhar Meher School</strong>
+                <span>Class 12 | 89%</span>
+            </div>
+
+            <div class="item">
+                <strong>Little Angels School</strong>
+                <span>Class 10 | 96%</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+
+            <div class="item">
+                <strong>₹250 Venture</strong>
+                <p>Built and operated a micro-business achieving 
+                <span class="highlight">~255% ROI</span> through pricing and sales strategy.</p>
+            </div>
+
+            <div class="item">
+                <strong>Business Survey</strong>
+                <p>Analyzed application of Fayol’s principles in a retail store.</p>
+            </div>
+
+            <div class="item">
+                <strong>Resume Website</strong>
+                <p>Designed and developed a personal portfolio using HTML & CSS.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+
+            <div class="item">
+                <strong>Special Olympics Bharat</strong>
+                <p>Worked with specially-abled children in inclusive sports activities.</p>
+            </div>
+
+            <div class="item">
+                <strong>AGILE COIL Program</strong>
+                <p>Collaborated in a 5-member international team and delivered final output.</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
